@@ -1,0 +1,31 @@
+{
+  "profile": [
+  {
+    "name": "MR",
+    "limit": 50,
+    "prior": 10,
+    "cpV": 0.75,
+    "keepTree": "false",
+    
+    "boardWeight": 0.0,
+    "cornerWeight": 0.0,
+    "mobilityWeight": 0.0,
+    "scoreWeight": 0.0
+  },
+  {
+    "name": "MS",
+    "limit": 3,
+    "prior": 10,
+    "cpV": 0.75,
+    "keepTree": "false"
+  } ],
+  "ip": "127.0.0.1",
+  "port": 7777,
+  "moveOrdering": "false",
+  "mmDepth": 1,
+  "kBest": 0,
+  "mctsDepth": 100,
+  "numberOfGames": 1,
+  "outputWon": "winrate.dat",
+  "outputTimePerMove": "time.dat"
+}
